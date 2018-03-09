@@ -37,7 +37,7 @@ VARCHAR的长度只分配真正需要的空间
 
 ### 查询SQL
 ```
-[通过开启慢查询日志来找出较慢的SQL]:https://www.cnblogs.com/luyucheng/p/6265594.html
+[https://www.cnblogs.com/luyucheng/p/6265594.html 通过开启慢查询日志来找出较慢的SQL][a]
 ```
 
 不做列运算：SELECT id WHERE age + 1 = 10，任何对列的操作都将导致表扫描，它包括数据库教程函数、计算表达式等等，查询时要尽可能将操作移至等号右边
